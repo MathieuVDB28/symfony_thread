@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Symfony Thread{% endblock %}
+
+{% block body %}
+
+<div class="example-wrapper mb-auto">
+    <h1 class="text-3xl font-bold underline text-blue-600">Hello {{ controller_name }}! ✅</h1>
+
+    This friendly message is coming from:
+    <ul>
+        <li>Your controller at <code><a href="{{ '/Users/mathieuvandenbussche/Documents/Dev/symfony_thread/src/Controller/HomepageController.php'|file_link(0) }}">src/Controller/HomepageController.php</a></code></li>
+        <li>Your template at <code><a href="{{ '/Users/mathieuvandenbussche/Documents/Dev/symfony_thread/templates/homepage/index.html.twig'|file_link(0) }}">templates/homepage/index.html.twig</a></code></li>
+    </ul>
+</div>
+{% endblock %}
